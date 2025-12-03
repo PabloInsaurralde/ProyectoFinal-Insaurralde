@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_AUTH_DOMAIN",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_STORAGE_BUCKET",
-  messagingSenderId: "TU_MESSAGING_SENDER_ID",
-  appId: "TU_APP_ID",
+  apiKey: "AIzaSyCF1r51aos-7ubHWXwqvHhvBsQM-FMW3d4",
+  authDomain: "kinelab-academy.firebaseapp.com",
+  projectId: "kinelab-academy",
+  storageBucket: "kinelab-academy.firebasestorage.app",
+  messagingSenderId: "108874455526",
+  appId: "1:108874455526:web:5b7e39412ae29ec75dde27"
 };
 
 const app = initializeApp(firebaseConfig);
